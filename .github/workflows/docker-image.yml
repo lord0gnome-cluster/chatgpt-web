@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: arc-raspi-runners
 
     steps:
     - name: Checkout repository
