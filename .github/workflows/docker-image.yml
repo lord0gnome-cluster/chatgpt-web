@@ -23,5 +23,5 @@ jobs:
       - name: Build Docker image
         run: docker build -t guiricha/chatgpt-web:latest .
 
-      - name: Push Docker image
+      - name: Push image to Docker
         run: docker push guiricha/chatgpt-web:latest
